@@ -1,0 +1,180 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bug_bounty_env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Burp Suite files
+*.burp
+*.bapp
+burp-ca-cert.*
+*.p12
+*.pem
+*.der
+*.crt
+*.key
+9a5ba575.0
+*-server-*
+
+# Frida files
+frida-server-*
+ssl-kill-switch*.js
+universal-ssl-kill-switch.js
+
+# Android debugging
+*.apk
+*.dex
+*.odex
+*.vdex
+*.art
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.tmp/
+logs/
+temp/
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+.env.local
+.env.production
+credentials.json
+tokens.txt
+
+# Testing and debugging
+test_results/
+debug_output/
+screenshots/
+recordings/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Bug bounty specific
+vulnerability_reports/private/
+sensitive_data/
+target_data/
+personal_info/
+exploitation_scripts/
+
+# Burp extensions and plugins
+burp_extensions/
+custom_plugins/
+
+# Mobile testing
+emulator_snapshots/
+android_logs/
+ios_logs/
+mobile_screenshots/
+
+# Network captures
+*.pcap
+*.pcapng
+*.cap
+traffic_captures/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large files that shouldn't be in git
+*.iso
+*.img
+*.vmdk
