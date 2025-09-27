@@ -160,11 +160,11 @@ init_git_repo() {
 create_github_repo_cli() {
     print_step "Criando repositório no GitHub com GitHub CLI..."
     
-    read -p "Nome do repositório [nubank-bug-bounty]: " repo_name
-    repo_name=${repo_name:-nubank-bug-bounty}
+    read -p "Nome do repositório [BugBountySetup]: " repo_name
+    repo_name=${repo_name:-BugBountySetup}
     
     read -p "Descrição: " repo_description
-    repo_description=${repo_description:-"🏦 Complete arsenal for Nubank Bug Bounty - Focus on P1 vulnerabilities ($2000-$4000)"}
+    repo_description=${repo_description:-"🎯 Complete Bug Bounty Arsenal - Multiple companies setup and automation tools"}
     
     # Criar repositório público
     gh repo create "$repo_name" \
@@ -188,8 +188,8 @@ manual_instructions() {
     print_step "Instruções para criação manual do repositório:"
     echo ""
     echo -e "${YELLOW}1. Acesse: https://github.com/new${NC}"
-    echo -e "${YELLOW}2. Nome do repositório: ${BLUE}nubank-bug-bounty${NC}"
-    echo -e "${YELLOW}3. Descrição: ${BLUE}🏦 Complete arsenal for Nubank Bug Bounty - Focus on P1 vulnerabilities (\$2000-\$4000)${NC}"
+    echo -e "${YELLOW}2. Nome do repositório: ${BLUE}BugBountySetup${NC}"
+    echo -e "${YELLOW}3. Descrição: ${BLUE}🎯 Complete Bug Bounty Arsenal - Multiple companies setup and automation tools${NC}"
     echo -e "${YELLOW}4. Marque como: ${BLUE}Public${NC}"
     echo -e "${YELLOW}5. ${RED}NÃO${NC} marque 'Add a README file'${NC}"
     echo -e "${YELLOW}6. ${RED}NÃO${NC} marque 'Add .gitignore'${NC}"
@@ -200,8 +200,8 @@ manual_instructions() {
     read -p "Pressione Enter quando criar o repositório no GitHub..."
     
     read -p "Digite seu nome de usuário GitHub: " github_username
-    read -p "Digite o nome do repositório [nubank-bug-bounty]: " repo_name
-    repo_name=${repo_name:-nubank-bug-bounty}
+    read -p "Digite o nome do repositório [BugBountySetup]: " repo_name
+    repo_name=${repo_name:-BugBountySetup}
     
     # Adicionar origin e fazer push
     git remote add origin "https://github.com/$github_username/$repo_name.git"

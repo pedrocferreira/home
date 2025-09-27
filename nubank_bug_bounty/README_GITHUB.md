@@ -1,4 +1,4 @@
-# 🏦 Nubank Bug Bounty Arsenal
+# 🎯 BugBountySetup - Nubank Arsenal
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
 ![Security](https://img.shields.io/badge/Security-Research-red?style=for-the-badge&logo=security)
 
-**🎯 Arsenal completo para Bug Bounty no Nubank - Foco em vulnerabilidades P1 ($2000-$4000)**
+**🎯 Arsenal completo para Bug Bounty - Nubank e outras empresas - Foco em vulnerabilidades de alto valor**
 
 [📖 Documentação](#-documentação) • [🚀 Quick Start](#-quick-start) • [🔧 Scripts](#-scripts) • [💰 Resultados](#-resultados)
 
@@ -39,7 +39,7 @@ Este repositório contém um **arsenal completo** para Bug Bounty no **Nubank**,
 ## 📋 **Estrutura do Projeto**
 
 ```
-📁 nubank-bug-bounty/
+📁 BugBountySetup/
 ├── 📄 README.md                              # Este arquivo
 ├── 📄 nubank.md                             # Guia original do programa
 ├── 📄 nubank_testing_strategy.md            # Estratégia completa de testes
@@ -64,8 +64,8 @@ Este repositório contém um **arsenal completo** para Bug Bounty no **Nubank**,
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/nubank-bug-bounty.git
-cd nubank-bug-bounty
+git clone https://github.com/SEU_USUARIO/BugBountySetup.git
+cd BugBountySetup
 
 # 2. Execute o setup automatizado
 chmod +x setup_burp_nubank.sh
@@ -242,8 +242,8 @@ GET /api/mobile/investments/portfolio # Investments
 ### **🚀 Instalação Rápida**
 ```bash
 # Clone e setup automático
-git clone https://github.com/SEU_USUARIO/nubank-bug-bounty.git
-cd nubank-bug-bounty
+git clone https://github.com/SEU_USUARIO/BugBountySetup.git
+cd BugBountySetup
 ./setup_burp_nubank.sh --auto
 
 # Verificar instalação
